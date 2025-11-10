@@ -1,0 +1,16 @@
+ Título do Notebook: 1.0 - Modelagem Preditiva para Otimização de Políticas de Crédito
+
+# 1. Importação de Bibliotecas
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LogisticRegression
+from sklearn.metrics import roc_auc_score, roc_curve, confusion_matrix, accuracy_score
+from scipy.stats import ks_2samp
+
+# Configurações de visualização
+pd.set_option('display.max_columns', 100)
+sns.set_style('whitegrid')
+print("Bibliotecas importadas e ambiente configurado.")
